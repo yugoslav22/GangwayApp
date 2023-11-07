@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gangway Crud</title>
+    
+</head>
+<body>
+    
+    <table>
+        <thead>
+            <tr>
+                
+                <th> Name</th>
+                <th>Surname</th>
+                <th>Code</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="taskList"></tbody>
+    </table>
+    <h1>Gangway App</h1>
+    <form id="taskForm">
+        <input type="text" id="taskName" placeholder="Name" autofocus>
+        <input type="text" id="taskDescription" placeholder="Surname">
+        
+        <button type="submit">Save</button>
+    </form>
+   
+    <form id="codeForm">
+        <input type="text" id="taskCode" placeholder="11-Digit Code">
+        <button type="button" onclick="changeStatus()">Update Status</button>
+    </form>
+
+    <ul id="taskList"></ul>
+
+    
+
+
+    <script src="./ui/app.js"></script>
+</body>
+</html>
