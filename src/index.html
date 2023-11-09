@@ -4,14 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gangway Crud</title>
+    <title>Camera Test</title>
+    <link rel="stylesheet" href="./ui/app.css">
+    <script src="jquery.js"></script>
     
 </head>
+
 <body>
+    <div class="contentarea">
+        <h1>MDN - navigator.mediaDevices.getUserMedia(): Still photo capture demo</h1>
+        <p>
+          This example demonstrates how to set up a media stream using your built-in
+          webcam, fetch an image from that stream, and create a PNG using that image.
+        </p>
+        <div class="camera">
+          <video id="video">Video stream not available.</video>
+         
+        </div>
+        <canvas id="canvas"> </canvas>
+        <div class="output">
+          <img id="photo" alt="The screen capture will appear in this box." />
+        </div>
+        
+      </div>
     
     <table>
         <thead>
             <tr>
-                
+              <th> Pic</th>
                 <th> Name</th>
                 <th>Surname</th>
                 <th>Code</th>
@@ -21,7 +41,7 @@
         </thead>
         <tbody id="taskList"></tbody>
     </table>
-    <h1>Gangway App</h1>
+    <h1>Gangway Application Demo V1.0.0</h1>
     <form id="taskForm">
         <input type="text" id="taskName" placeholder="Name" autofocus>
         <input type="text" id="taskDescription" placeholder="Surname">
@@ -34,11 +54,15 @@
         <button type="button" onclick="changeStatus()">Update Status</button>
     </form>
 
+    
+
     <ul id="taskList"></ul>
 
     
 
 
-    <script src="./ui/app.js"></script>
+    <script src="./ui/app.js">
+        
+    </script>
 </body>
 </html>
