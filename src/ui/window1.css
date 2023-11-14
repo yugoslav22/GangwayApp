@@ -1,0 +1,114 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+.contentarea {
+  font-size: 16px;
+  width: 760px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#taskForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+#taskList .copy-button {
+  background-color: grey !important;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+#taskList td button {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+#taskForm input,
+#taskForm button {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+#window1SubmitButton {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#window1SubmitButton:hover {
+  background-color: #45a049;
+}
+
+#taskList {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#taskList th, #taskList td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+#taskList th {
+  background-color: #4caf50;
+  color: white;
+}
+
+#taskList tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#taskList button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px; /* Adjust the border-radius as needed */
+  transition: background-color 0.3s ease; 
+  margin-top: 30px;
+}
+#taskList button:hover {
+  background-color: #d32f2f;
+}
+
+
+#taskList button-copy {
+  background-color: rgb(53, 115, 208);
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px; /* Adjust the border-radius as needed */
+  transition: background-color 0.3s ease;/* Smooth transition effect */
+}
+
+#taskList button-copy:hover {
+  background-color: rgba(117, 211, 223, 0.679); /* Adjust the hover color as needed */
+}
+
+#taskList button-copy:active {
+  background-color: rgb(0, 0, 0);/* Adjust the transition speed as needed */
+}
+
+#taskForm {
+  display: none;
+}
+
+#window1SubmitButton {
+  display: none;
+}

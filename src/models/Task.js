@@ -15,8 +15,8 @@ const newTaskSchema = new Schema({
     },
     status: {
         type: String,
-        enum: ["onboard", "ashore"], 
-        default: "onboard" 
+        enum: ["ONBOARD", "ASHORE"], 
+        default: "ONBOARD" 
     },
     photo: {
         type: String, // Base64 formatında fotoğraf

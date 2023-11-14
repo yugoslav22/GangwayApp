@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    margin: 20px;
+}
+
+#codeForm {
+    margin-bottom: 20px;
+}
+
+#taskCode {
+    margin-bottom: 10px;
+}
+
+#statusChangeButton {
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#taskImage {
+    margin-bottom: 20px;
+}
+
+.taskDetails {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+

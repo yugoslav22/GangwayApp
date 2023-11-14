@@ -1,7 +1,7 @@
-const {createWindow} = require("./main")
-const {app} = require("electron")
-require("./database")
+// const {createWindow} = require("./main")
+// const {app} = require("electron")
+// require("./database")
 
-app.whenReady().then(createWindow)
+// app.whenReady().then(createWindow)
 
-app.allowRendererProcessReuse = false
+// app.allowRendererProcessReuse = false
